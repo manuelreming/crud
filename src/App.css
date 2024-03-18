@@ -1,0 +1,17 @@
+.user--container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Ajusta el tamaño mínimo y máximo de las tarjetas */
+  gap: 20px; /* Espacio entre las tarjetas */
+  margin: 0 20px;
+}
+.app__header{
+    text-align: center;
+}
+.app__title{
+  text-align: center !important;
+  margin-left: 20px;
+  font-size: 400%;
+}

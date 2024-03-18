@@ -1,0 +1,55 @@
+.user-card {
+  width: 100%;
+  border: 1px solid #ccc; /* Borde grisáceo */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  overflow: hidden; /* Ocultar el contenido que sobresale */
+  word-wrap: break-word
+}
+
+.user-card h2 {
+  margin-bottom: 10px;
+}
+
+.user-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-card li {
+  margin-bottom: 5px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Botones separados con espacio */
+}
+.user-card__button{
+  margin-left: 10%;
+  margin-bottom: 20px;
+  margin-top: 1.5em;
+  font-size: 1rem;
+  padding: 0.3em 1em;
+  background-color: #555A88;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  &:hover{
+    filter: brightness(1.2);
+  }
+  
+}
+.user-card__label,
+.user-card__value {
+  display: block; 
+  text-align: center;
+  margin-bottom: 5%;
+  margin-right: 7%;
+}
+.user-card__button--delete{
+margin-left: 16%;
+}
+
+.user-card__label{
+  font-weight: bold;
+  margin-bottom: 1%;
+}
